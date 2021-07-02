@@ -1,5 +1,5 @@
-const fs = require("fs");
 const chalk = require("chalk");
+const fs = require("fs");
 
 exports.guardarSaludo = (nombre) => {
   fs.writeFile("./textos/saludo.txt", "Hola " + nombre, (err) => {
